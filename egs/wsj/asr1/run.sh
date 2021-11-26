@@ -10,7 +10,7 @@
 backend=pytorch
 stage=0        # start from 0 if you need to start from data preparation
 stop_stage=100
-ngpu=1         # number of gpus ("0" uses cpu, otherwise use gpu)
+ngpu=5         # number of gpus ("0" uses cpu, otherwise use gpu)
 debugmode=1
 dumpdir=dump   # directory to dump full features
 N=0            # number of minibatches to be used (mainly for debugging). "0" uses all minibatches.
@@ -46,8 +46,12 @@ use_valbest_average=false    # if true, the validation `n_average`-best ASR mode
                              # if false, the last `n_average` ASR models will be averaged.
 
 # data
-wsj0=/export/corpora5/LDC/LDC93S6B
-wsj1=/export/corpora5/LDC/LDC94S13B
+#wsj0=/export/corpora5/LDC/LDC93S6B
+#wsj1=/export/corpora5/LDC/LDC94S13B
+
+# Midia's data
+wsj0=/scratch2/mxy171630/wsj/WSJ0
+wsj1=/scratch2/mxy171630/wsj/WSJ1
 
 # exp tag
 tag="" # tag for managing experiments.
