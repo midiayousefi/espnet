@@ -10,6 +10,7 @@ import json
 import logging
 import math
 import os
+import pdb
 
 from chainer import reporter as reporter_module
 from chainer import training
@@ -263,7 +264,8 @@ class CustomConverter(object):
         """
         # batch should be located in list
         assert len(batch) == 1
-        xs, ys = batch[0]
+        xs, xvecs, ys = batch[0]
+        xs, xvecs, ys = batch[0]
 
         # perform subsampling
         if self.subsampling_factor > 1:
@@ -271,6 +273,7 @@ class CustomConverter(object):
 
         # get batch of lengths of input sequences
         ilens = np.array([x.shape[0] for x in xs])
+       
 
         # perform padding and convert to tensor
         # currently only support real number
@@ -302,8 +305,11 @@ class CustomConverter(object):
             ],
             self.ignore_id,
         ).to(device)
-
-        return xs_pad, ilens, ys_pad
+        
+        xvec_tensors = [torch.from_numpy(xvec).float().unsqueeze(0) for xvec in xvecs]
+        xvec_pad = torch.cat(xvec_tensors,dim=0).to(device)
+        
+        return xs_pad, ilens, ys_pad, xvec_pad
 
 
 class CustomConverterMulEnc(object):

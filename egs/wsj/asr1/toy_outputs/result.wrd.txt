@@ -1,0 +1,107 @@
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+       ,----------------------------------------------------------------.
+       |                    toy_outputs/hyp.wrd.trn                     |
+       |----------------------------------------------------------------|
+       | SPKR   | # Snt # Wrd | Corr    Sub    Del    Ins    Err  S.Err |
+       |--------+-------------+-----------------------------------------|
+       | 440    |   10    191 | 90.1    9.4    0.5    1.0   11.0   80.0 |
+       |================================================================|
+       | Sum/Avg|   10    191 | 90.1    9.4    0.5    1.0   11.0   80.0 |
+       |================================================================|
+       |  Mean  | 10.0  191.0 | 90.1    9.4    0.5    1.0   11.0   80.0 |
+       |  S.D.  |  0.0    0.0 |  0.0    0.0    0.0    0.0    0.0    0.0 |
+       | Median | 10.0  191.0 | 90.1    9.4    0.5    1.0   11.0   80.0 |
+       `----------------------------------------------------------------'
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+        ,--------------------------------------------------------------.
+        |                   toy_outputs/hyp.wrd.trn                    |
+        |--------------------------------------------------------------|
+        | SPKR | # Snt # Wrd | Corr    Sub    Del    Ins    Err  S.Err |
+        |------+-------------+-----------------------------------------|
+        | 440  |   10    191 |  172     18      1      2     21      8 |
+        |==============================================================|
+        | Sum  |   10    191 |  172     18      1      2     21      8 |
+        |==============================================================|
+        | Mean | 10.0  191.0 |172.0   18.0    1.0    2.0   21.0    8.0 |
+        | S.D. |  0.0    0.0 |  0.0    0.0    0.0    0.0    0.0    0.0 |
+        |Median| 10.0  191.0 |172.0   18.0    1.0    2.0   21.0    8.0 |
+        `--------------------------------------------------------------'
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   toy_outputs/hyp.wrd.trn
+
+Speakers: 
+    0:  440
+
+Speaker sentences   0:  440   #utts: 10
+id: (440-440c0401)
+Scores: (#C #S #D #I) 18 2 1 1
+REF:  dravo last month agreed in principle to sell its inland water transportation ***** STEVEDORING and PIPE FABRICATION     businesses for an undisclosed sum 
+HYP:  dravo last month agreed in principle to sell its inland water transportation STEVE DOORING     and **** PIPEFABRICATION businesses for an undisclosed sum 
+Eval:                                                                              I     S               D    S                                                 
+
+id: (440-440c0402)
+Scores: (#C #S #D #I) 24 0 0 0
+REF:  the combined businesses accounted for two hundred thirty five million dollars of dravo's eight hundred ninety three million dollars in nineteen eighty five revenue 
+HYP:  the combined businesses accounted for two hundred thirty five million dollars of dravo's eight hundred ninety three million dollars in nineteen eighty five revenue 
+Eval:                                                                                                                                                                     
+
+id: (440-440c0403)
+Scores: (#C #S #D #I) 25 2 0 1
+REF:  in september the company received ninety six point eight million dollars as its share of damages from a BREACH of contract ** AWARD related to a coal partnership 
+HYP:  in september the company received ninety six point eight million dollars as its share of damages from a REACH  of contract TO WARD  related to a coal partnership 
+Eval:                                                                                                         S                  I  S                                   
+
+id: (440-440c0404)
+Scores: (#C #S #D #I) 17 3 0 0
+REF:  south africa the solution by FRANCES KENDALL and leon LOUW has sold over twenty five thousand copies since last year 
+HYP:  south africa the solution by FRANCIS KENDLE  and leon LOW  has sold over twenty five thousand copies since last year 
+Eval:                              S       S                S                                                              
+
+id: (440-440c0405)
+Scores: (#C #S #D #I) 15 3 0 0
+REF:  as ms. KENDALL AND mr. LOUW see it south africa's central government is like a big lumbering tank 
+HYP:  as ms. KENDAL  IN  mr. LOW  see it south africa's central government is like a big lumbering tank 
+Eval:        S       S       S                                                                          
+
+id: (440-440c0406)
+Scores: (#C #S #D #I) 17 2 0 0
+REF:  white bureaucrats are in the DRIVER'S seat and blacks rightly fear what the TANK'S weapons can do to them 
+HYP:  white bureaucrats are in the DRIVERS  seat and blacks rightly fear what the TANKS  weapons can do to them 
+Eval:                              S                                              S                             
+
+id: (440-440c0407)
+Scores: (#C #S #D #I) 9 1 0 0
+REF:  many want to STORM the tank and take it over 
+HYP:  many want to STORE the tank and take it over 
+Eval:              S                               
+
+id: (440-440c0408)
+Scores: (#C #S #D #I) 19 1 0 0
+REF:  but if the history of other african nations is any guide whites indians and small black TRIBES should fear that 
+HYP:  but if the history of other african nations is any guide whites indians and small black TRIBE  should fear that 
+Eval:                                                                                         S                       
+
+id: (440-440c0409)
+Scores: (#C #S #D #I) 11 0 0 0
+REF:  grains and soybeans most corn and wheat futures prices were stronger 
+HYP:  grains and soybeans most corn and wheat futures prices were stronger 
+Eval:                                                                      
+
+id: (440-440c040a)
+Scores: (#C #S #D #I) 17 4 0 0
+REF:  WHEAT futures were supported by concern that wheat may be vulnerable if cold SNAPS  follow this past WEEKEND'S WARMTH analysts said 
+HYP:  WEAK  futures were supported by concern that wheat may be vulnerable if cold SNAPPS follow this past WEEKENDS  WARNTH analysts said 
+Eval: S                                                                            S                       S         S                    
+
+

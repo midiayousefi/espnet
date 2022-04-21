@@ -1,0 +1,194 @@
+{
+    "utts": {
+        "440c0401": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "DRAVO LAST MONTH AGREED IN PRINCIPAL TO SELL ITS INLAND WATER TRANSPORTATION STEVE DOORING AND PIPEFABRICATION BUSINESSES FOR AN UNDISCLOSED SUM<eos>",
+                    "rec_token": "D R A V O <space> L A S T <space> M O N T H <space> A G R E E D <space> I N <space> P R I N C I P A L <space> T O <space> S E L L <space> I T S <space> I N L A N D <space> W A T E R <space> T R A N S P O R T A T I O N <space> S T E V E <space> D O O R I N G <space> A N D <space> P I P E F A B R I C A T I O N <space> B U S I N E S S E S <space> F O R <space> A N <space> U N D I S C L O S E D <space> S U M <eos>",
+                    "rec_tokenid": "23 37 20 41 34 18 31 20 38 39 18 32 34 33 39 27 18 20 26 37 24 24 23 18 28 33 18 35 37 28 33 22 28 35 20 31 18 39 34 18 38 24 31 31 18 28 39 38 18 28 33 31 20 33 23 18 42 20 39 24 37 18 39 37 20 33 38 35 34 37 39 20 39 28 34 33 18 38 39 24 41 24 18 23 34 34 37 28 33 26 18 20 33 23 18 35 28 35 24 25 20 21 37 28 22 20 39 28 34 33 18 21 40 38 28 33 24 38 38 24 38 18 25 34 37 18 20 33 18 40 33 23 28 38 22 31 34 38 24 23 18 38 40 32 51",
+                    "score": -450.3120262622833,
+                    "shape": [
+                        143,
+                        52
+                    ],
+                    "text": "DRAVO LAST MONTH AGREED IN PRINCIPLE TO SELL ITS INLAND WATER TRANSPORTATION STEVEDORING AND PIPE FABRICATION BUSINESSES FOR AN UNDISCLOSED SUM",
+                    "token": "D R A V O <space> L A S T <space> M O N T H <space> A G R E E D <space> I N <space> P R I N C I P L E <space> T O <space> S E L L <space> I T S <space> I N L A N D <space> W A T E R <space> T R A N S P O R T A T I O N <space> S T E V E D O R I N G <space> A N D <space> P I P E <space> F A B R I C A T I O N <space> B U S I N E S S E S <space> F O R <space> A N <space> U N D I S C L O S E D <space> S U M",
+                    "tokenid": "23 37 20 41 34 18 31 20 38 39 18 32 34 33 39 27 18 20 26 37 24 24 23 18 28 33 18 35 37 28 33 22 28 35 31 24 18 39 34 18 38 24 31 31 18 28 39 38 18 28 33 31 20 33 23 18 42 20 39 24 37 18 39 37 20 33 38 35 34 37 39 20 39 28 34 33 18 38 39 24 41 24 23 34 37 28 33 26 18 20 33 23 18 35 28 35 24 18 25 20 21 37 28 22 20 39 28 34 33 18 21 40 38 28 33 24 38 38 24 38 18 25 34 37 18 20 33 18 40 33 23 28 38 22 31 34 38 24 23 18 38 40 32"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0402": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "THE COMBINED BUSINESS ACCOUNTED FOR TWO HUNDRED THIRTY FIVE MILLION DOLLARS OF DRAVO'S EIGHT HUNDRED NINETY THREE MILLION DOLLARS IN NINETEEN EIGHTY FIVE REVENUE<eos>",
+                    "rec_token": "T H E <space> C O M B I N E D <space> B U S I N E S S <space> A C C O U N T E D <space> F O R <space> T W O <space> H U N D R E D <space> T H I R T Y <space> F I V E <space> M I L L I O N <space> D O L L A R S <space> O F <space> D R A V O ' S <space> E I G H T <space> H U N D R E D <space> N I N E T Y <space> T H R E E <space> M I L L I O N <space> D O L L A R S <space> I N <space> N I N E T E E N <space> E I G H T Y <space> F I V E <space> R E V E N U E <eos>",
+                    "rec_tokenid": "39 27 24 18 22 34 32 21 28 33 24 23 18 21 40 38 28 33 24 38 38 18 20 22 22 34 40 33 39 24 23 18 25 34 37 18 39 42 34 18 27 40 33 23 37 24 23 18 39 27 28 37 39 44 18 25 28 41 24 18 32 28 31 31 28 34 33 18 23 34 31 31 20 37 38 18 34 25 18 23 37 20 41 34 5 38 18 24 28 26 27 39 18 27 40 33 23 37 24 23 18 33 28 33 24 39 44 18 39 27 37 24 24 18 32 28 31 31 28 34 33 18 23 34 31 31 20 37 38 18 28 33 18 33 28 33 24 39 24 24 33 18 24 28 26 27 39 44 18 25 28 41 24 18 37 24 41 24 33 40 24 51",
+                    "score": -519.9047842025757,
+                    "shape": [
+                        163,
+                        52
+                    ],
+                    "text": "THE COMBINED BUSINESSES ACCOUNTED FOR TWO HUNDRED THIRTY FIVE MILLION DOLLARS OF DRAVO'S EIGHT HUNDRED NINETY THREE MILLION DOLLARS IN NINETEEN EIGHTY FIVE REVENUE",
+                    "token": "T H E <space> C O M B I N E D <space> B U S I N E S S E S <space> A C C O U N T E D <space> F O R <space> T W O <space> H U N D R E D <space> T H I R T Y <space> F I V E <space> M I L L I O N <space> D O L L A R S <space> O F <space> D R A V O ' S <space> E I G H T <space> H U N D R E D <space> N I N E T Y <space> T H R E E <space> M I L L I O N <space> D O L L A R S <space> I N <space> N I N E T E E N <space> E I G H T Y <space> F I V E <space> R E V E N U E",
+                    "tokenid": "39 27 24 18 22 34 32 21 28 33 24 23 18 21 40 38 28 33 24 38 38 24 38 18 20 22 22 34 40 33 39 24 23 18 25 34 37 18 39 42 34 18 27 40 33 23 37 24 23 18 39 27 28 37 39 44 18 25 28 41 24 18 32 28 31 31 28 34 33 18 23 34 31 31 20 37 38 18 34 25 18 23 37 20 41 34 5 38 18 24 28 26 27 39 18 27 40 33 23 37 24 23 18 33 28 33 24 39 44 18 39 27 37 24 24 18 32 28 31 31 28 34 33 18 23 34 31 31 20 37 38 18 28 33 18 33 28 33 24 39 24 24 33 18 24 28 26 27 39 44 18 25 28 41 24 18 37 24 41 24 33 40 24"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0403": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "IN SEPTEMBER THE COMPANY RECEIVED NINETY SIX POINT EIGHT MILLION DOLLARS AS IT SHARE OF DAMAGES FROM A REACH OF CONTRACT TO WARD RELATED TO A COAL PARTNERSHIP<eos>",
+                    "rec_token": "I N <space> S E P T E M B E R <space> T H E <space> C O M P A N Y <space> R E C E I V E D <space> N I N E T Y <space> S I X <space> P O I N T <space> E I G H T <space> M I L L I O N <space> D O L L A R S <space> A S <space> I T <space> S H A R E <space> O F <space> D A M A G E S <space> F R O M <space> A <space> R E A C H <space> O F <space> C O N T R A C T <space> T O <space> W A R D <space> R E L A T E D <space> T O <space> A <space> C O A L <space> P A R T N E R S H I P <eos>",
+                    "rec_tokenid": "28 33 18 38 24 35 39 24 32 21 24 37 18 39 27 24 18 22 34 32 35 20 33 44 18 37 24 22 24 28 41 24 23 18 33 28 33 24 39 44 18 38 28 43 18 35 34 28 33 39 18 24 28 26 27 39 18 32 28 31 31 28 34 33 18 23 34 31 31 20 37 38 18 20 38 18 28 39 18 38 27 20 37 24 18 34 25 18 23 20 32 20 26 24 38 18 25 37 34 32 18 20 18 37 24 20 22 27 18 34 25 18 22 34 33 39 37 20 22 39 18 39 34 18 42 20 37 23 18 37 24 31 20 39 24 23 18 39 34 18 20 18 22 34 20 31 18 35 20 37 39 33 24 37 38 27 28 35 51",
+                    "score": -489.0021119117737,
+                    "shape": [
+                        158,
+                        52
+                    ],
+                    "text": "IN SEPTEMBER THE COMPANY RECEIVED NINETY SIX POINT EIGHT MILLION DOLLARS AS ITS SHARE OF DAMAGES FROM A BREACH OF CONTRACT AWARD RELATED TO A COAL PARTNERSHIP",
+                    "token": "I N <space> S E P T E M B E R <space> T H E <space> C O M P A N Y <space> R E C E I V E D <space> N I N E T Y <space> S I X <space> P O I N T <space> E I G H T <space> M I L L I O N <space> D O L L A R S <space> A S <space> I T S <space> S H A R E <space> O F <space> D A M A G E S <space> F R O M <space> A <space> B R E A C H <space> O F <space> C O N T R A C T <space> A W A R D <space> R E L A T E D <space> T O <space> A <space> C O A L <space> P A R T N E R S H I P",
+                    "tokenid": "28 33 18 38 24 35 39 24 32 21 24 37 18 39 27 24 18 22 34 32 35 20 33 44 18 37 24 22 24 28 41 24 23 18 33 28 33 24 39 44 18 38 28 43 18 35 34 28 33 39 18 24 28 26 27 39 18 32 28 31 31 28 34 33 18 23 34 31 31 20 37 38 18 20 38 18 28 39 38 18 38 27 20 37 24 18 34 25 18 23 20 32 20 26 24 38 18 25 37 34 32 18 20 18 21 37 24 20 22 27 18 34 25 18 22 34 33 39 37 20 22 39 18 20 42 20 37 23 18 37 24 31 20 39 24 23 18 39 34 18 20 18 22 34 20 31 18 35 20 37 39 33 24 37 38 27 28 35"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0404": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "SOUTH AFRICA THE SOLUTION BY FRANCIS KENDLE AND LION LOW HAS SOLD OVER TWENTY FIVE THOUSAND COPIES SINCE LAST YEAR<eos>",
+                    "rec_token": "S O U T H <space> A F R I C A <space> T H E <space> S O L U T I O N <space> B Y <space> F R A N C I S <space> K E N D L E <space> A N D <space> L I O N <space> L O W <space> H A S <space> S O L D <space> O V E R <space> T W E N T Y <space> F I V E <space> T H O U S A N D <space> C O P I E S <space> S I N C E <space> L A S T <space> Y E A R <eos>",
+                    "rec_tokenid": "38 34 40 39 27 18 20 25 37 28 22 20 18 39 27 24 18 38 34 31 40 39 28 34 33 18 21 44 18 25 37 20 33 22 28 38 18 30 24 33 23 31 24 18 20 33 23 18 31 28 34 33 18 31 34 42 18 27 20 38 18 38 34 31 23 18 34 41 24 37 18 39 42 24 33 39 44 18 25 28 41 24 18 39 27 34 40 38 20 33 23 18 22 34 35 28 24 38 18 38 28 33 22 24 18 31 20 38 39 18 44 24 20 37 51",
+                    "score": -361.52217507362366,
+                    "shape": [
+                        118,
+                        52
+                    ],
+                    "text": "SOUTH AFRICA THE SOLUTION BY FRANCES KENDALL AND LEON LOUW <NOISE> HAS SOLD OVER TWENTY FIVE THOUSAND COPIES SINCE LAST YEAR",
+                    "token": "S O U T H <space> A F R I C A <space> T H E <space> S O L U T I O N <space> B Y <space> F R A N C E S <space> K E N D A L L <space> A N D <space> L E O N <space> L O U W <space> <NOISE> <space> H A S <space> S O L D <space> O V E R <space> T W E N T Y <space> F I V E <space> T H O U S A N D <space> C O P I E S <space> S I N C E <space> L A S T <space> Y E A R",
+                    "tokenid": "38 34 40 39 27 18 20 25 37 28 22 20 18 39 27 24 18 38 34 31 40 39 28 34 33 18 21 44 18 25 37 20 33 22 24 38 18 30 24 33 23 20 31 31 18 20 33 23 18 31 24 34 33 18 31 34 40 42 18 17 18 27 20 38 18 38 34 31 23 18 34 41 24 37 18 39 42 24 33 39 44 18 25 28 41 24 18 39 27 34 40 38 20 33 23 18 22 34 35 28 24 38 18 38 28 33 22 24 18 31 20 38 39 18 44 24 20 37"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0405": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "AS MS. KENDAL IN MR. LOW SEE IT SOUTH AFRICA CENTRAL GOVERNMENT IS LIKE A BIG LUMBERING TANK<eos>",
+                    "rec_token": "A S <space> M S . <space> K E N D A L <space> I N <space> M R . <space> L O W <space> S E E <space> I T <space> S O U T H <space> A F R I C A <space> C E N T R A L <space> G O V E R N M E N T <space> I S <space> L I K E <space> A <space> B I G <space> L U M B E R I N G <space> T A N K <eos>",
+                    "rec_tokenid": "20 38 18 32 38 11 18 30 24 33 23 20 31 18 28 33 18 32 37 11 18 31 34 42 18 38 24 24 18 28 39 18 38 34 40 39 27 18 20 25 37 28 22 20 18 22 24 33 39 37 20 31 18 26 34 41 24 37 33 32 24 33 39 18 28 38 18 31 28 30 24 18 20 18 21 28 26 18 31 40 32 21 24 37 28 33 26 18 39 20 33 30 51",
+                    "score": -306.96650195121765,
+                    "shape": [
+                        97,
+                        52
+                    ],
+                    "text": "AS MS. KENDALL AND MR. LOUW SEE IT SOUTH AFRICA'S CENTRAL GOVERNMENT IS LIKE A BIG LUMBERING TANK",
+                    "token": "A S <space> M S . <space> K E N D A L L <space> A N D <space> M R . <space> L O U W <space> S E E <space> I T <space> S O U T H <space> A F R I C A ' S <space> C E N T R A L <space> G O V E R N M E N T <space> I S <space> L I K E <space> A <space> B I G <space> L U M B E R I N G <space> T A N K",
+                    "tokenid": "20 38 18 32 38 11 18 30 24 33 23 20 31 31 18 20 33 23 18 32 37 11 18 31 34 40 42 18 38 24 24 18 28 39 18 38 34 40 39 27 18 20 25 37 28 22 20 5 38 18 22 24 33 39 37 20 31 18 26 34 41 24 37 33 32 24 33 39 18 28 38 18 31 28 30 24 18 20 18 21 28 26 18 31 40 32 21 24 37 28 33 26 18 39 20 33 30"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0406": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "WHITE BUREAUCRATS ARE IN THE DRIVER SEAT AND BLACKS RIGHTLY FEAR WHAT THE TANKS WEAPONS CAN DO TO THEM<eos>",
+                    "rec_token": "W H I T E <space> B U R E A U C R A T S <space> A R E <space> I N <space> T H E <space> D R I V E R <space> S E A T <space> A N D <space> B L A C K S <space> R I G H T L Y <space> F E A R <space> W H A T <space> T H E <space> T A N K S <space> W E A P O N S <space> C A N <space> D O <space> T O <space> T H E M <eos>",
+                    "rec_tokenid": "42 27 28 39 24 18 21 40 37 24 20 40 22 37 20 39 38 18 20 37 24 18 28 33 18 39 27 24 18 23 37 28 41 24 37 18 38 24 20 39 18 20 33 23 18 21 31 20 22 30 38 18 37 28 26 27 39 31 44 18 25 24 20 37 18 42 27 20 39 18 39 27 24 18 39 20 33 30 38 18 42 24 20 35 34 33 38 18 22 20 33 18 23 34 18 39 34 18 39 27 24 32 51",
+                    "score": -326.0299425125122,
+                    "shape": [
+                        105,
+                        52
+                    ],
+                    "text": "WHITE BUREAUCRATS ARE IN THE DRIVER'S SEAT AND BLACKS RIGHTLY FEAR WHAT THE TANK'S WEAPONS CAN DO TO THEM",
+                    "token": "W H I T E <space> B U R E A U C R A T S <space> A R E <space> I N <space> T H E <space> D R I V E R ' S <space> S E A T <space> A N D <space> B L A C K S <space> R I G H T L Y <space> F E A R <space> W H A T <space> T H E <space> T A N K ' S <space> W E A P O N S <space> C A N <space> D O <space> T O <space> T H E M",
+                    "tokenid": "42 27 28 39 24 18 21 40 37 24 20 40 22 37 20 39 38 18 20 37 24 18 28 33 18 39 27 24 18 23 37 28 41 24 37 5 38 18 38 24 20 39 18 20 33 23 18 21 31 20 22 30 38 18 37 28 26 27 39 31 44 18 25 24 20 37 18 42 27 20 39 18 39 27 24 18 39 20 33 30 5 38 18 42 24 20 35 34 33 38 18 22 20 33 18 23 34 18 39 34 18 39 27 24 32"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0407": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "MANY WANT TO STORE THE TANK AND TAKE IT OVER<eos>",
+                    "rec_token": "M A N Y <space> W A N T <space> T O <space> S T O R E <space> T H E <space> T A N K <space> A N D <space> T A K E <space> I T <space> O V E R <eos>",
+                    "rec_tokenid": "32 20 33 44 18 42 20 33 39 18 39 34 18 38 39 34 37 24 18 39 27 24 18 39 20 33 30 18 20 33 23 18 39 20 30 24 18 28 39 18 34 41 24 37 51",
+                    "score": -137.6939561367035,
+                    "shape": [
+                        44,
+                        52
+                    ],
+                    "text": "MANY WANT TO STORM THE TANK AND TAKE IT OVER",
+                    "token": "M A N Y <space> W A N T <space> T O <space> S T O R M <space> T H E <space> T A N K <space> A N D <space> T A K E <space> I T <space> O V E R",
+                    "tokenid": "32 20 33 44 18 42 20 33 39 18 39 34 18 38 39 34 37 32 18 39 27 24 18 39 20 33 30 18 20 33 23 18 39 20 30 24 18 28 39 18 34 41 24 37"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0408": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "BUT IF THE HISTORY OF OTHER AFRICAN NATIONS IS ANY GUIDE WHITES INDIANS AND SMALL BLACK TRI SHOULD FEAR THAT<eos>",
+                    "rec_token": "B U T <space> I F <space> T H E <space> H I S T O R Y <space> O F <space> O T H E R <space> A F R I C A N <space> N A T I O N S <space> I S <space> A N Y <space> G U I D E <space> W H I T E S <space> I N D I A N S <space> A N D <space> S M A L L <space> B L A C K <space> T R I <space> S H O U L D <space> F E A R <space> T H A T <eos>",
+                    "rec_tokenid": "21 40 39 18 28 25 18 39 27 24 18 27 28 38 39 34 37 44 18 34 25 18 34 39 27 24 37 18 20 25 37 28 22 20 33 18 33 20 39 28 34 33 38 18 28 38 18 20 33 44 18 26 40 28 23 24 18 42 27 28 39 24 38 18 28 33 23 28 20 33 38 18 20 33 23 18 38 32 20 31 31 18 21 31 20 22 30 18 39 37 28 18 38 27 34 40 31 23 18 25 24 20 37 18 39 27 20 39 51",
+                    "score": -336.5390501022339,
+                    "shape": [
+                        111,
+                        52
+                    ],
+                    "text": "BUT IF THE HISTORY OF OTHER AFRICAN NATIONS IS ANY GUIDE WHITES INDIANS AND SMALL BLACK TRIBES SHOULD FEAR THAT",
+                    "token": "B U T <space> I F <space> T H E <space> H I S T O R Y <space> O F <space> O T H E R <space> A F R I C A N <space> N A T I O N S <space> I S <space> A N Y <space> G U I D E <space> W H I T E S <space> I N D I A N S <space> A N D <space> S M A L L <space> B L A C K <space> T R I B E S <space> S H O U L D <space> F E A R <space> T H A T",
+                    "tokenid": "21 40 39 18 28 25 18 39 27 24 18 27 28 38 39 34 37 44 18 34 25 18 34 39 27 24 37 18 20 25 37 28 22 20 33 18 33 20 39 28 34 33 38 18 28 38 18 20 33 44 18 26 40 28 23 24 18 42 27 28 39 24 38 18 28 33 23 28 20 33 38 18 20 33 23 18 38 32 20 31 31 18 21 31 20 22 30 18 39 37 28 21 24 38 18 38 27 34 40 31 23 18 25 24 20 37 18 39 27 20 39"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c0409": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "GRAINS AND SOYBEANS MOST CORN AND WHEAT FUTURES PRICES WERE STRONGER<eos>",
+                    "rec_token": "G R A I N S <space> A N D <space> S O Y B E A N S <space> M O S T <space> C O R N <space> A N D <space> W H E A T <space> F U T U R E S <space> P R I C E S <space> W E R E <space> S T R O N G E R <eos>",
+                    "rec_tokenid": "26 37 20 28 33 38 18 20 33 23 18 38 34 44 21 24 20 33 38 18 32 34 38 39 18 22 34 37 33 18 20 33 23 18 42 27 24 20 39 18 25 40 39 40 37 24 38 18 35 37 28 22 24 38 18 42 24 37 24 18 38 39 37 34 33 26 24 37 51",
+                    "score": -218.00289225578308,
+                    "shape": [
+                        68,
+                        52
+                    ],
+                    "text": "GRAINS AND SOYBEANS MOST CORN AND WHEAT FUTURES PRICES WERE STRONGER",
+                    "token": "G R A I N S <space> A N D <space> S O Y B E A N S <space> M O S T <space> C O R N <space> A N D <space> W H E A T <space> F U T U R E S <space> P R I C E S <space> W E R E <space> S T R O N G E R",
+                    "tokenid": "26 37 20 28 33 38 18 20 33 23 18 38 34 44 21 24 20 33 38 18 32 34 38 39 18 22 34 37 33 18 20 33 23 18 42 27 24 20 39 18 25 40 39 40 37 24 38 18 35 37 28 22 24 38 18 42 24 37 24 18 38 39 37 34 33 26 24 37"
+                }
+            ],
+            "utt2spk": "440"
+        },
+        "440c040a": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "WHEAT FUTURES WERE SUPPORTED BY CONCERN THAT WHEAT MAY BE VULNERABLE IF COLD SNAPS FOLLOW THIS PAST WEEKENDS WARNTH ANALYSTS SAID<eos>",
+                    "rec_token": "W H E A T <space> F U T U R E S <space> W E R E <space> S U P P O R T E D <space> B Y <space> C O N C E R N <space> T H A T <space> W H E A T <space> M A Y <space> B E <space> V U L N E R A B L E <space> I F <space> C O L D <space> S N A P S <space> F O L L O W <space> T H I S <space> P A S T <space> W E E K E N D S <space> W A R N T H <space> A N A L Y S T S <space> S A I D <eos>",
+                    "rec_tokenid": "42 27 24 20 39 18 25 40 39 40 37 24 38 18 42 24 37 24 18 38 40 35 35 34 37 39 24 23 18 21 44 18 22 34 33 22 24 37 33 18 39 27 20 39 18 42 27 24 20 39 18 32 20 44 18 21 24 18 41 40 31 33 24 37 20 21 31 24 18 28 25 18 22 34 31 23 18 38 33 20 35 38 18 25 34 31 31 34 42 18 39 27 28 38 18 35 20 38 39 18 42 24 24 30 24 33 23 38 18 42 20 37 33 39 27 18 20 33 20 31 44 38 39 38 18 38 20 28 23 51",
+                    "score": -425.6971035003662,
+                    "shape": [
+                        130,
+                        52
+                    ],
+                    "text": "WHEAT FUTURES WERE SUPPORTED BY CONCERN THAT WHEAT MAY BE VULNERABLE IF COLD SNAPS FOLLOW THIS PAST WEEKEND'S WARMTH ANALYSTS SAID",
+                    "token": "W H E A T <space> F U T U R E S <space> W E R E <space> S U P P O R T E D <space> B Y <space> C O N C E R N <space> T H A T <space> W H E A T <space> M A Y <space> B E <space> V U L N E R A B L E <space> I F <space> C O L D <space> S N A P S <space> F O L L O W <space> T H I S <space> P A S T <space> W E E K E N D ' S <space> W A R M T H <space> A N A L Y S T S <space> S A I D",
+                    "tokenid": "42 27 24 20 39 18 25 40 39 40 37 24 38 18 42 24 37 24 18 38 40 35 35 34 37 39 24 23 18 21 44 18 22 34 33 22 24 37 33 18 39 27 20 39 18 42 27 24 20 39 18 32 20 44 18 21 24 18 41 40 31 33 24 37 20 21 31 24 18 28 25 18 22 34 31 23 18 38 33 20 35 38 18 25 34 31 31 34 42 18 39 27 28 38 18 35 20 38 39 18 42 24 24 30 24 33 23 5 38 18 42 20 37 32 39 27 18 20 33 20 31 44 38 39 38 18 38 20 28 23"
+                }
+            ],
+            "utt2spk": "440"
+        }
+    }
+}

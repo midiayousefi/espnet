@@ -122,6 +122,8 @@ class LoadInputsAndTargets(object):
                         filepath=inp["feat"], filetype=inp.get("filetype", "mat")
                     )
                     x_feats_dict.setdefault(inp["name"], []).append(x)
+
+
             # FIXME(kamo): Dirty way to load only speaker_embedding
             elif self.mode == "tts" and self.use_speaker_embedding:
                 for idx, inp in enumerate(info["input"]):

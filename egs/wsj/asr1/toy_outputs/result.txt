@@ -1,0 +1,107 @@
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+      ,-----------------------------------------------------------------.
+      |                       toy_outputs/hyp.trn                       |
+      |-----------------------------------------------------------------|
+      | SPKR   | # Snt  # Wrd | Corr    Sub    Del    Ins    Err  S.Err |
+      |--------+--------------+-----------------------------------------|
+      | 440    |   10    1136 | 98.2    0.6    1.1    0.4    2.2   80.0 |
+      |=================================================================|
+      | Sum/Avg|   10    1136 | 98.2    0.6    1.1    0.4    2.2   80.0 |
+      |=================================================================|
+      |  Mean  | 10.0  1136.0 | 98.2    0.6    1.1    0.4    2.2   80.0 |
+      |  S.D.  |  0.0    0.0  |  0.0    0.0    0.0    0.0    0.0    0.0 |
+      | Median | 10.0  1136.0 | 98.2    0.6    1.1    0.4    2.2   80.0 |
+      `-----------------------------------------------------------------'
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+       ,----------------------------------------------------------------.
+       |                      toy_outputs/hyp.trn                       |
+       |----------------------------------------------------------------|
+       | SPKR | # Snt  # Wrd | Corr     Sub    Del    Ins    Err  S.Err |
+       |------+--------------+------------------------------------------|
+       | 440  |   10    1136 | 1116       7     13      5     25      8 |
+       |================================================================|
+       | Sum  |   10    1136 | 1116       7     13      5     25      8 |
+       |================================================================|
+       | Mean | 10.0  1136.0 |1116.0    7.0   13.0    5.0   25.0    8.0 |
+       | S.D. |  0.0    0.0  |  0.0     0.0    0.0    0.0    0.0    0.0 |
+       |Median| 10.0  1136.0 |1116.0    7.0   13.0    5.0   25.0    8.0 |
+       `----------------------------------------------------------------'
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   toy_outputs/hyp.trn
+
+Speakers: 
+    0:  440
+
+Speaker sentences   0:  440   #utts: 10
+id: (440-440c0401)
+Scores: (#C #S #D #I) 142 0 1 2
+REF:  d r a v o <space> l a s t <space> m o n t h <space> a g r e e d <space> i n <space> p r i n c i p l e <space> t o <space> s e l l <space> i t s <space> i n l a n d <space> w a t e r <space> t r a n s p o r t a t i o n <space> s t e v e ******* d * o r i n g <space> a n d <space> p i p e <SPACE> f a b r i c a t i o n <space> b u s i n e s s e s <space> f o r <space> a n <space> u n d i s c l o s e d <space> s u m 
+HYP:  d r a v o <space> l a s t <space> m o n t h <space> a g r e e d <space> i n <space> p r i n c i p l e <space> t o <space> s e l l <space> i t s <space> i n l a n d <space> w a t e r <space> t r a n s p o r t a t i o n <space> s t e v e <SPACE> d O o r i n g <space> a n d <space> p i p e ******* f a b r i c a t i o n <space> b u s i n e s s e s <space> f o r <space> a n <space> u n d i s c l o s e d <space> s u m 
+Eval:                                                                                                                                                                                                                                             I         I                                         D                                                                                                                               
+
+id: (440-440c0402)
+Scores: (#C #S #D #I) 163 0 0 0
+REF:  t h e <space> c o m b i n e d <space> b u s i n e s s e s <space> a c c o u n t e d <space> f o r <space> t w o <space> h u n d r e d <space> t h i r t y <space> f i v e <space> m i l l i o n <space> d o l l a r s <space> o f <space> d r a v o ' s <space> e i g h t <space> h u n d r e d <space> n i n e t y <space> t h r e e <space> m i l l i o n <space> d o l l a r s <space> i n <space> n i n e t e e n <space> e i g h t y <space> f i v e <space> r e v e n u e 
+HYP:  t h e <space> c o m b i n e d <space> b u s i n e s s e s <space> a c c o u n t e d <space> f o r <space> t w o <space> h u n d r e d <space> t h i r t y <space> f i v e <space> m i l l i o n <space> d o l l a r s <space> o f <space> d r a v o ' s <space> e i g h t <space> h u n d r e d <space> n i n e t y <space> t h r e e <space> m i l l i o n <space> d o l l a r s <space> i n <space> n i n e t e e n <space> e i g h t y <space> f i v e <space> r e v e n u e 
+Eval:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+id: (440-440c0403)
+Scores: (#C #S #D #I) 156 1 1 2
+REF:  i n <space> s e p t e m b e r <space> t h e <space> c o m p a n y <space> r e c e i v e d <space> n i n e t y <space> s i x <space> p o i n t <space> e i g h t <space> m i l l i o n <space> d o l l a r s <space> a s <space> i t s <space> s h a r e <space> o f <space> d a m a g e s <space> f r o m <space> a <space> B r e a c h <space> o f <space> c o n t r a c t <space> * * A       w a r d <space> r e l a t e d <space> t o <space> a <space> c o a l <space> p a r t n e r s h i p 
+HYP:  i n <space> s e p t e m b e r <space> t h e <space> c o m p a n y <space> r e c e i v e d <space> n i n e t y <space> s i x <space> p o i n t <space> e i g h t <space> m i l l i o n <space> d o l l a r s <space> a s <space> i t s <space> s h a r e <space> o f <space> d a m a g e s <space> f r o m <space> a <space> * r e a c h <space> o f <space> c o n t r a c t <space> T O <SPACE> w a r d <space> r e l a t e d <space> t o <space> a <space> c o a l <space> p a r t n e r s h i p 
+Eval:                                                                                                                                                                                                                                                                                                                             D                                                       I I S                                                                                                         
+
+id: (440-440c0404)
+Scores: (#C #S #D #I) 112 2 3 0
+REF:  s o u t h <space> a f r i c a <space> t h e <space> s o l u t i o n <space> b y <space> f r a n c E s <space> k e n d A l L <space> a n d <space> l e o n <space> l o U w <SPACE> <space> h a s <space> s o l d <space> o v e r <space> t w e n t y <space> f i v e <space> t h o u s a n d <space> c o p i e s <space> s i n c e <space> l a s t <space> y e a r 
+HYP:  s o u t h <space> a f r i c a <space> t h e <space> s o l u t i o n <space> b y <space> f r a n c I s <space> k e n d * l E <space> a n d <space> l e o n <space> l o * w ******* <space> h a s <space> s o l d <space> o v e r <space> t w e n t y <space> f i v e <space> t h o u s a n d <space> c o p i e s <space> s i n c e <space> l a s t <space> y e a r 
+Eval:                                                                                                   S                   D   S                                           D   D                                                                                                                                                                                       
+
+id: (440-440c0405)
+Scores: (#C #S #D #I) 93 1 3 0
+REF:  a s <space> m s . <space> k e n d a L l <space> A n D <space> m r . <space> l o U w <space> s e e <space> i t <space> s o u t h <space> a f r i c a ' s <space> c e n t r a l <space> g o v e r n m e n t <space> i s <space> l i k e <space> a <space> b i g <space> l u m b e r i n g <space> t a n k 
+HYP:  a s <space> m s . <space> k e n d a * l <space> I n * <space> m r . <space> l o * w <space> s e e <space> i t <space> s o u t h <space> a f r i c a ' s <space> c e n t r a l <space> g o v e r n m e n t <space> i s <space> l i k e <space> a <space> b i g <space> l u m b e r i n g <space> t a n k 
+Eval:                                     D           S   D                           D                                                                                                                                                                                                                       
+
+id: (440-440c0406)
+Scores: (#C #S #D #I) 103 0 2 0
+REF:  w h i t e <space> b u r e a u c r a t s <space> a r e <space> i n <space> t h e <space> d r i v e r ' s <space> s e a t <space> a n d <space> b l a c k s <space> r i g h t l y <space> f e a r <space> w h a t <space> t h e <space> t a n k ' s <space> w e a p o n s <space> c a n <space> d o <space> t o <space> t h e m 
+HYP:  w h i t e <space> b u r e a u c r a t s <space> a r e <space> i n <space> t h e <space> d r i v e r * s <space> s e a t <space> a n d <space> b l a c k s <space> r i g h t l y <space> f e a r <space> w h a t <space> t h e <space> t a n k * s <space> w e a p o n s <space> c a n <space> d o <space> t o <space> t h e m 
+Eval:                                                                                                     D                                                                                                                                         D                                                                               
+
+id: (440-440c0407)
+Scores: (#C #S #D #I) 43 1 0 0
+REF:  m a n y <space> w a n t <space> t o <space> s t o r M <space> t h e <space> t a n k <space> a n d <space> t a k e <space> i t <space> o v e r 
+HYP:  m a n y <space> w a n t <space> t o <space> s t o r E <space> t h e <space> t a n k <space> a n d <space> t a k e <space> i t <space> o v e r 
+Eval:                                                     S                                                                                         
+
+id: (440-440c0408)
+Scores: (#C #S #D #I) 110 0 1 0
+REF:  b u t <space> i f <space> t h e <space> h i s t o r y <space> o f <space> o t h e r <space> a f r i c a n <space> n a t i o n s <space> i s <space> a n y <space> g u i d e <space> w h i t e s <space> i n d i a n s <space> a n d <space> s m a l l <space> b l a c k <space> t r i b e S <space> s h o u l d <space> f e a r <space> t h a t 
+HYP:  b u t <space> i f <space> t h e <space> h i s t o r y <space> o f <space> o t h e r <space> a f r i c a n <space> n a t i o n s <space> i s <space> a n y <space> g u i d e <space> w h i t e s <space> i n d i a n s <space> a n d <space> s m a l l <space> b l a c k <space> t r i b e * <space> s h o u l d <space> f e a r <space> t h a t 
+Eval:                                                                                                                                                                                                                                                                                           D                                                     
+
+id: (440-440c0409)
+Scores: (#C #S #D #I) 68 0 0 0
+REF:  g r a i n s <space> a n d <space> s o y b e a n s <space> m o s t <space> c o r n <space> a n d <space> w h e a t <space> f u t u r e s <space> p r i c e s <space> w e r e <space> s t r o n g e r 
+HYP:  g r a i n s <space> a n d <space> s o y b e a n s <space> m o s t <space> c o r n <space> a n d <space> w h e a t <space> f u t u r e s <space> p r i c e s <space> w e r e <space> s t r o n g e r 
+Eval:                                                                                                                                                                                                     
+
+id: (440-440c040a)
+Scores: (#C #S #D #I) 126 2 2 1
+REF:  w H e a T <space> f u t u r e s <space> w e r e <space> s u p p o r t e d <space> b y <space> c o n c e r n <space> t h a t <space> w h e a t <space> m a y <space> b e <space> v u l n e r a b l e <space> i f <space> c o l d <space> s n a * p s <space> f o l l o w <space> t h i s <space> p a s t <space> w e e k e n d ' s <space> w a r M t h <space> a n a l y s t s <space> s a i d 
+HYP:  w * e a K <space> f u t u r e s <space> w e r e <space> s u p p o r t e d <space> b y <space> c o n c e r n <space> t h a t <space> w h e a t <space> m a y <space> b e <space> v u l n e r a b l e <space> i f <space> c o l d <space> s n a P p s <space> f o l l o w <space> t h i s <space> p a s t <space> w e e k e n d * s <space> w a r N t h <space> a n a l y s t s <space> s a i d 
+Eval:   D     S                                                                                                                                                                                                                                     I                                                                               D                 S                                             
+
+

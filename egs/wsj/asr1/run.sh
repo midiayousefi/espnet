@@ -8,9 +8,9 @@
 
 # general configuration
 backend=pytorch
-stage=0        # start from 0 if you need to start from data preparation
+stage=5       # start from 0 if you need to start from data preparation
 stop_stage=100
-ngpu=5         # number of gpus ("0" uses cpu, otherwise use gpu)
+ngpu=4         # number of gpus ("0" uses cpu, otherwise use gpu)
 debugmode=1
 dumpdir=dump   # directory to dump full features
 N=0            # number of minibatches to be used (mainly for debugging). "0" uses all minibatches.
@@ -26,7 +26,7 @@ min_io_delta=4  # samples with `len(input) - len(output) * min_io_ratio < min_io
 
 # config files
 preprocess_config=conf/no_preprocess.yaml  # use conf/specaug.yaml for data augmentation
-train_config=conf/train.yaml
+train_config=conf/train_xvec.yaml
 lm_config=conf/lm.yaml
 decode_config=conf/decode.yaml
 
@@ -67,8 +67,8 @@ set -o pipefail
 train_set=train_si284
 train_dev=test_dev93
 train_test=test_eval92
-recog_set="test_dev93 test_eval92"
-
+recog_set="test_dev93 test_eval92 test_mixed_datasets/SIR_0 test_mixed_datasets/SIR_25 test_mixed_datasets/SIR_10 test_mixed_datasets/SIR_15 test_mixed_datasets/SIR_5 test_mixed_datasets/SIR_20"
+#recog_set="test_mixed_datasets/SIR_0"
 if [ ${stage} -le 0 ] && [ ${stop_stage} -ge 0 ]; then
     ### Task dependent. You have to make data the following preparation part by yourself.
     ### But you can utilize Kaldi recipes in most cases
@@ -252,6 +252,10 @@ fi
 
 if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
     echo "stage 5: Decoding"
+    ##########################
+    #####Added by MIDIA
+    lmexpdir="exp/train_rnnlm_pytorch_lm_word65000"
+    ##########################
     nj=32
     if [[ $(get_yaml.py ${train_config} model-module) = *transformer* ]] || \
        [[ $(get_yaml.py ${train_config} model-module) = *conformer* ]] || \
@@ -274,7 +278,7 @@ if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
 
     pids=() # initialize pids
     for rtask in ${recog_set}; do
-    (
+     (
         recog_opts=
         if ${skip_lm_training}; then
             if [ -z ${lmtag} ]; then
@@ -308,11 +312,11 @@ if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
             ${recog_opts}
 
         score_sclite.sh --wer true --nlsyms ${nlsyms} ${expdir}/${decode_dir} ${dict}
-
-    ) &
-    pids+=($!) # store background pids
+     )
+     
+    #pids+=($!) # store background pids
     done
-    i=0; for pid in "${pids[@]}"; do wait ${pid} || ((++i)); done
-    [ ${i} -gt 0 ] && echo "$0: ${i} background jobs are failed." && false
-    echo "Finished"
+    #i=0; for pid in "${pids[@]}"; do wait ${pid} || ((++i)); done
+    #[ ${i} -gt 0 ] && echo "$0: ${i} background jobs are failed." && false
+    #echo "Finished"
 fi
