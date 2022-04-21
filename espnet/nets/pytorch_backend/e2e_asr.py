@@ -474,7 +474,7 @@ class E2E(ASRInterface, torch.nn.Module):
             self.train()
         return enhanced.cpu().numpy(), mask.cpu().numpy(), ilens
 
-    def calculate_all_attentions(self, xs_pad, ilens, ys_pad):
+    def calculate_all_attentions(self, xs_pad, ilens, ys_pad, xvec):
         """E2E attention calculation.
 
         :param torch.Tensor xs_pad: batch of padded input sequences (B, Tmax, idim)
